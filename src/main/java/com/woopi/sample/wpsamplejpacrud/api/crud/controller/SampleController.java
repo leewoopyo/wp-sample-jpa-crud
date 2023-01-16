@@ -1,4 +1,4 @@
-package com.woopi.sample.wpsamplejpacrud.api.sample.controller;
+package com.woopi.sample.wpsamplejpacrud.api.crud.controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.woopi.sample.wpsamplejpacrud.api.sample.entity.SampleEntity;
-import com.woopi.sample.wpsamplejpacrud.api.sample.service.SampleService;
+import com.woopi.sample.wpsamplejpacrud.api.crud.entity.SampleEntity;
+import com.woopi.sample.wpsamplejpacrud.api.crud.service.SampleService;
 
 @Controller //Controller 임을 명시
-@RequestMapping(value = "/api/sample")  //url prefix 명시
+@RequestMapping(value = "/api/sample/crud")  //url prefix 명시
 public class SampleController {
 
         //service를 의존성 추가
@@ -35,7 +35,7 @@ public class SampleController {
             return ResponseEntity.ok().body(list);
         }
 
-                /**
+        /**
          * 전체 데이터 조회
          * @return 전체 데이터
          */

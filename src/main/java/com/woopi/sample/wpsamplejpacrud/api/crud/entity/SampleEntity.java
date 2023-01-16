@@ -1,4 +1,4 @@
-package com.woopi.sample.wpsamplejpacrud.api.sample.entity;
+package com.woopi.sample.wpsamplejpacrud.api.crud.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

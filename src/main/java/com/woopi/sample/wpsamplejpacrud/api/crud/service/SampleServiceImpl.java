@@ -1,4 +1,4 @@
-package com.woopi.sample.wpsamplejpacrud.api.sample.service;
+package com.woopi.sample.wpsamplejpacrud.api.crud.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.woopi.sample.wpsamplejpacrud.api.sample.entity.SampleEntity;
-import com.woopi.sample.wpsamplejpacrud.api.sample.repository.SampleRepository;
+import com.woopi.sample.wpsamplejpacrud.api.crud.entity.SampleEntity;
+import com.woopi.sample.wpsamplejpacrud.api.crud.repository.SampleRepository;
 
 @Service
 public class SampleServiceImpl implements SampleService{
